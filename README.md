@@ -1,4 +1,4 @@
-# Intro to Hashes Lab
+# Hashopoly
 
 ## Objectives
 
@@ -9,10 +9,7 @@
 
 ## Instructions
 
-1. Fork and clone this lab and run the test suite with the `rspec` command. Pay attention to the test suite for this lab. The instructions and comments are designed to help you get the tests to pass. 
-2. The first test requires you to create a method called `#new_hash` that creates and returns a new, empty hash. 
-3. The second test requires you to build a method called `#actor` that creates and returns a hash with a certain actor's name. *Read the test output by entering* `rspec` *—this is where you will find the necessary information for passing the test!*
-4. The next series of tests will require you to build methods that build up a nested hash, one layer (or "level") at a time, in a similar way to how we built our `epic_tragedy` hash in the previous lesson. Read the test output very carefully; it will guide you through building the necessary methods. Don't forget to return the hash, if necessary! At the end of the exercise, your multidimensional monopoly hash should look like this:
+The series of tests will require you to build methods that build up a nested hash, one layer (or "level") at a time, in a similar way to how we built our `epic_tragedy` hash in the previous lesson. Read the test output very carefully; it will guide you through building the necessary methods. Don't forget to return the hash, if necessary! At the end of the exercise, your multidimensional monopoly hash should look like this:
 
 ```ruby
 monopoly =  {
@@ -51,7 +48,7 @@ monopoly =  {
 
 **Don't Forget!** 
 
-Remember to use `binding.pry` to help you get inside your methods and understand what is going on if you need to debug. Remember to google questions that you have if you get stuck!
+Remember that you can use `binding.pry` to help you get inside your methods and understand what is going on if you need to debug. Remember to google questions that you have if you get stuck!
 
 ## Resources
 1. [What is a Hash in Ruby?](http://ruby.about.com/od/rubyfeatures/a/hashes.htm)
